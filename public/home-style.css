@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.container>form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.columns {
+    border: 1px solid black;
+    /* margin: 0 auto; */
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: black;
+    width: 40%;
+    position: relative;
+}
+
+label {
+    color: white;
+}
+
+input::placeholder {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.548);
+
+}
+
+.column {
+    width: 100%
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #a39e9e33;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+input[type="button"] {
+    background-color: #a39e9e33;
+    border-radius: 20px;
+    color: blanchedalmond;
+    padding: 5% 30%;
+}
+
+.col-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
